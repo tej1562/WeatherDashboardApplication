@@ -1,0 +1,12 @@
+.weather-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.weather-item-title{
+    color: #9DADC2;
+}
+
+.weather-item-detail{
+    margin-top: 0.5rem;
+}

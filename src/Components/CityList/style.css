@@ -1,0 +1,33 @@
+#citylist-container{
+    position: absolute;
+    top: 3.2rem;
+    width: 100%;
+    background-color: #1F293B;
+}
+
+.citylist-item{
+    padding: 1rem;
+    cursor: pointer;
+    color: #9DADC2;
+}
+
+/* Medium size mobile */
+@media (max-width: 480px)
+{
+    #citylist-container{
+        top: 1.7rem;
+    }
+
+    .citylist-item{
+        font-size: 0.5rem;
+        padding: 0.5rem;
+    }
+}
+
+/* Small size mobile */
+@media (max-width: 320px)
+{
+    #citylist-container{
+        top: 1.55rem;
+    }
+}

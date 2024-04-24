@@ -1,0 +1,57 @@
+#search-container{
+    flex: 1;
+    position: relative;
+}
+
+#city-input{
+    background: none;
+    border: none;
+    outline: none;
+    color: #9DADC2;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.input-container input{
+    flex: 1;
+    font-size: 1rem;
+}
+
+::placeholder {
+    color: #9DADC2;
+    opacity: 1; 
+}
+
+/* Tablet */
+@media (max-width: 768px){
+    .input-container input{
+        font-size: 0.8rem;
+    }
+}
+
+/* Medium size mobile */
+@media (max-width: 480px){
+    .input-container{
+        gap: 0.7rem;
+    }
+
+    .input-container input{
+        font-size: 0.6rem;
+    }
+}
+
+/* Small size mobile */
+@media (max-width: 320px)
+{
+    .input-container{
+        gap: 0.5rem;
+    }
+    .input-container input{
+        font-size: 0.5rem;
+    }
+}
